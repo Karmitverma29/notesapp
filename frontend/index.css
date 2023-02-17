@@ -1,0 +1,40 @@
+/* Navbar container */
+#navbar {
+    background-color: #2E86C1;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Logo */
+  #navbar h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Navbar links */
+  #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  #navbar ul li {
+    margin-left: 20px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  #navbar ul li a:hover {
+    color: black;
+  }
+  
